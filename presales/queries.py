@@ -1,4 +1,3 @@
-from etherscan.accounts import Account
 import os
 from dotenv import load_dotenv, find_dotenv
 import requests

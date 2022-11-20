@@ -103,14 +103,6 @@ docs = ["furo (>=2022.9.29)", "proselint (>=0.13)", "sphinx (>=5.3)", "sphinx-au
 test = ["appdirs (==1.4.4)", "pytest (>=7.2)", "pytest-cov (>=4)", "pytest-mock (>=3.10)"]
 
 [[package]]
-name = "py-etherscan-api"
-version = "0.8.0"
-description = "Python Bindings to Etherscan.io API"
-category = "main"
-optional = false
-python-versions = "*"
-
-[[package]]
 name = "python-dotenv"
 version = "0.21.0"
 description = "Read key-value pairs from a .env file and set them as environment variables"
@@ -171,7 +163,7 @@ socks = ["PySocks (>=1.5.6,!=1.5.7,<2.0)"]
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.9"
-content-hash = "9dfb22917c84ec1b8bdd378a733a0cac7f978e8db0ae55a15823b23aaff9fa7a"
+content-hash = "c5cbc2da86d10ca3b8e5baf2905cee19e539efe84f6b98f9bef2fed980f49493"
 
 [metadata.files]
 black = [
@@ -257,10 +249,6 @@ pathspec = [
 platformdirs = [
     {file = "platformdirs-2.5.4-py3-none-any.whl", hash = "sha256:af0276409f9a02373d540bf8480021a048711d572745aef4b7842dad245eba10"},
     {file = "platformdirs-2.5.4.tar.gz", hash = "sha256:1006647646d80f16130f052404c6b901e80ee4ed6bef6792e1f238a8969106f7"},
-]
-py-etherscan-api = [
-    {file = "py_etherscan_api-0.8.0-py3-none-any.whl", hash = "sha256:1f07eeaa352e77ebb8620cc257518f010a08dd32c213d9920a32337b8b2ae632"},
-    {file = "py_etherscan_api-0.8.0.tar.gz", hash = "sha256:4cc12ad6fc7eaae4d19235e7171bd5ef03b5322eb100bc5955cc5984d700f159"},
 ]
 python-dotenv = [
     {file = "python-dotenv-0.21.0.tar.gz", hash = "sha256:b77d08274639e3d34145dfa6c7008e66df0f04b7be7a75fd0d5292c191d79045"},
