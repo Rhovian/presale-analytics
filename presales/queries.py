@@ -6,7 +6,6 @@ import requests
 load_dotenv(find_dotenv())
 
 ETHERSCAN_KEY = os.environ.get("ETHERSCAN_KEY")
-# https://api.etherscan.io/api?module=account&action=txlist&address=0xd82477E8e75f18D210770574F57f31D57FBfC50f&startblock=0&endblock=99999999&page=1&offset=10000&sort=asc&apikey=SBNR3WT1JE6W8QHTDBMU9KDCGR9151ZTAD
 
 
 class QueryHandler:
