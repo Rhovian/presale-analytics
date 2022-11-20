@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "keelytics-presales"
+version = "0.1.0"
+description = ""
+authors = ["J Bravo <atomicjab@proton.me>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+python-dotenv = "^0.21.0"
+requests = "^2.28.1"
+black = "^22.10.0"
+ethers = "^0.1.1"
+py-etherscan-api = "^0.8.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
