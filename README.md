@@ -40,7 +40,7 @@ Target token: [0xdAC17F958D2ee523a2206206994597C13D831ec7](https://etherscan.io/
 
 *command*
 ```
-poetry run python3 presales/main.py -c ethereum -p 0xd82477E8e75f18D210770574F57f31D57FBfC50f - t 0xdAC17F958D2ee523a2206206994597C13D831ec7
+poetry run python3 presales/main.py -c ethereum -p 0xd82477E8e75f18D210770574F57f31D57FBfC50f -t 0xdAC17F958D2ee523a2206206994597C13D831ec7
 ```
 
 ### Polygon
@@ -51,5 +51,5 @@ Target token: NATIVE
 
 *command*
 ```
-poetry run python3 presales/main.py -c polygon -p 0x054925aa212c9CC4610A25df9a18854f461BcdDb - t NATIVE
+poetry run python3 presales/main.py -c polygon -p 0x054925aa212c9CC4610A25df9a18854f461BcdDb -t NATIVE
 ```

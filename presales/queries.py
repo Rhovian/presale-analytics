@@ -70,6 +70,6 @@ class QueryHandler:
             + self.token
             + "&address="
             + self.presale
-            + "&page=1&offset=100&startblock=0&endblock=27025780&sort=asc&apikey="
+            + "&page=1&offset=10000&startblock=0&endblock=27025780&sort=asc&apikey="
             + key
         )
