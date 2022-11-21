@@ -24,7 +24,7 @@ These are just some random contracts i found to test the system.
 
 Target presale: [0x44540f6d9AF649F7c4247817216e95AE82CE06cD](https://bscscan.com/address/0x44540f6d9af649f7c4247817216e95ae82ce06cd#readContract)
 <br>
-Target token: BUSD | [0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56](https://bscscan.com/address/0xe9e7cea3dedca5984780bafc599bd69add087d56)
+Target token: [0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56](https://bscscan.com/address/0xe9e7cea3dedca5984780bafc599bd69add087d56)
 
 *command*
 ```
