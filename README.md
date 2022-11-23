@@ -31,6 +31,16 @@ Target token: [0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56](https://bscscan.com/a
 poetry run python3 presales/main.py -c bsc -p 0x44540f6d9AF649F7c4247817216e95AE82CE06cD -t 0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56
 ```
 
+*output*
+```json
+{
+  "network": "bsc",
+  "presale": "0x44540f6d9AF649F7c4247817216e95AE82CE06cD",
+  "token": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
+  "symbol": "BUSD",
+  "amount": 207389.13314489878
+}
+```
 
 ### Ethereum Mainnet
 
@@ -43,6 +53,17 @@ Target token: [0xdAC17F958D2ee523a2206206994597C13D831ec7](https://etherscan.io/
 poetry run python3 presales/main.py -c ethereum -p 0xd82477E8e75f18D210770574F57f31D57FBfC50f -t 0xdAC17F958D2ee523a2206206994597C13D831ec7
 ```
 
+*output*
+```json
+{
+  "network": "ethereum",
+  "presale": "0xd82477E8e75f18D210770574F57f31D57FBfC50f",
+  "token": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+  "symbol": "USDT",
+  "amount": 208107.13126
+}
+```
+
 ### Polygon
 
 Target presale: [0x054925aa212c9CC4610A25df9a18854f461BcdDb](https://polygonscan.com/address/0x054925aa212c9CC4610A25df9a18854f461BcdDb#code)
@@ -52,4 +73,14 @@ Target token: NATIVE
 *command*
 ```
 poetry run python3 presales/main.py -c polygon -p 0x054925aa212c9CC4610A25df9a18854f461BcdDb -t NATIVE
+```
+
+*output*
+```json
+{
+  "network": "polygon",
+  "presale": "0x054925aa212c9CC4610A25df9a18854f461BcdDb",
+  "token": "NATIVE",
+  "amount": 218787.60480704682
+}
 ```

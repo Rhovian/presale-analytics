@@ -1,6 +1,7 @@
 # address = "0xd82477E8e75f18D210770574F57f31D57FBfC50f"
 import argparse
 from queries import QueryHandler
+from parser import Parser
 
 
 def main():
@@ -36,6 +37,11 @@ def main():
 
     transactions = query_handler.run()
     print("Transactions found: {}".format(len(transactions["result"])))
+
+    parser = Parser(args.chain, transactions["result"], args.presale, args.token)
+
+    result = parser.parse_txs()
+    print("Presale summary: {}".format(result))
 
 
 if __name__ == "__main__":
